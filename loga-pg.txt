@@ -1,0 +1,19 @@
+ligar:
+
+pg_ctl -D $PREFIX/var/lib/postgresql start
+
+deligar:
+
+pg_ctl -D $PREFIX/var/lib/postgresql stop
+
+
+criar db'
+
+createdb dbteste
+
+entra na db:
+
+psql dbteste
+
+
+o resto e no conector
